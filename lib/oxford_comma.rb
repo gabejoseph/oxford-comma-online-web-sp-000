@@ -9,7 +9,6 @@ def oxford_comma(array)
   elsif array.length > 2 
     x = []
     x << array.pop
-    array.join( , )
     array << x 
   end
 end
