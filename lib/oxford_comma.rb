@@ -10,6 +10,6 @@ def oxford_comma(array)
     array.insert(-2, " and ")
     # array.insert(1,", ")
     # array.insert(3, ", and ")
-    array.join(, )
+    array.join(", ")
   end
 end
