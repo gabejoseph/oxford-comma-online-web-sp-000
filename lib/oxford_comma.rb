@@ -7,6 +7,7 @@ def oxford_comma(array)
   elsif array.length == 2
     return array.join(" and ")
   elsif array.length > 2 
+    x = []
     x << array.pop
   end
 end
